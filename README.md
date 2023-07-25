@@ -1,11 +1,11 @@
-This is my final project for MATH 598, A topics class in Statistics which was focused on missing data. I consider the case of a dataset of images with some missing labels, I then compare an approach which uses an autoencoder and predictive mean matching to 
+This is my final project for MATH 598, A topics class in Statistics which was focused on missing data. I consider the case of a dataset of images with some missing labels, I then compare the following approaches: A convolutional autoencoder and predictive mean matching at the latent level; A convolutional network which predicts class probabilities and performs predictive mean matching using the predicted probabilities; and a convolutional network which simply attempts to predict the class labels. I compare the three approaches under both the Missing Conditionally at Random (MAR) and the Missing not at Random (MNAR) cases.
 
 
 This is just going to give a general overview of the different files and what they do
 
 1) 'report.pdf'
 
-   A PDF containing relevant work, methodology, results, and a discussion of them
+   A PDF containing relevant work, methodology, results, and a discussion of the results
 
 3) 'PMM_for_images.py'
 
